@@ -158,12 +158,16 @@ body {
 }
 
 .btn-secondary {
-  border: 1px solid rgba(255,255,255,0.4);
+  background: #163d6b;
   color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
 }
 
 .btn-secondary:hover {
-  background: #eee;
+  background: #0f2b4d;
 }
 
 /* LISTA HERO */
