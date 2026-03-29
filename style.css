@@ -331,3 +331,27 @@ body {
 .nav-toggle {
   display: none;
 }
+.image-box {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* overlay leggero (effetto premium) */
+.image-box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.3),
+    transparent
+  );
+}
