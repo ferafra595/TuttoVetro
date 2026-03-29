@@ -71,6 +71,9 @@ body {
 
 /* ===== HERO ===== */
 .hero {
+  .hero {
+  backdrop-filter: blur(2px);
+}
   background: linear-gradient(
     135deg,
     #0b1f3a 0%,
