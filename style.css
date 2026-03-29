@@ -411,13 +411,3 @@ body {
   color: #0b1f3a;
 }
 
-.section-blue .btn-primary:hover {
-  background: #e5e7eb;
-}
-.catalog-box::after {
-  content: "Apri PDF →";
-  display: block;
-  margin-top: 10px;
-  font-size: 0.9rem;
-  opacity: 0.7;
-}
