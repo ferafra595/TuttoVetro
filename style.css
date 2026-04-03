@@ -327,17 +327,27 @@ body {
 }
 .cta-actions {
   display: flex;
-  gap: 15px;
+  gap: 20px;
+}
+
+.cta-box .btn {
+  padding: 16px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  white-space: nowrap; /* 🔥 evita testo spezzato */
 }
 
 .cta-box .btn-primary {
   background: white;
   color: #0b1f3a;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 .cta-box .btn-ghost {
   border: 1px solid rgba(255,255,255,0.4);
   color: white;
+  background: transparent;
 }
 @media (max-width: 768px) {
   .cta-box {
